@@ -1,0 +1,24 @@
+﻿<Window x:Class="Kniha_jizd.View.Odebrat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kniha_jizd.View"
+        mc:Ignorable="d"
+        Title="Odebrat" Height="135.855" Width="199.99">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.306"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label Content="Číslo jízdy:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_odebrat" Content="Odebrat" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="75" Click="btn_odebrat_Click"/>
+        <Button x:Name="btn_storno" Content="Storno" HorizontalAlignment="Left" Margin="100,67,0,0" VerticalAlignment="Top" Width="75" Click="btn_storno_Click"/>
+        <TextBox x:Name="cislo" HorizontalAlignment="Left" Height="23" Margin="80,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+
+    </Grid>
+</Window>

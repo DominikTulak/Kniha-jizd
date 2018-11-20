@@ -1,0 +1,16 @@
+﻿<Window x:Class="Kniha_jizd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kniha_jizd"
+        mc:Ignorable="d"
+        Title="Kniha jízd" Height="342.11" Width="484.631" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="btn_PrehledJizd" Content="Přehled jízd" Margin="0,99,0,0" Width="291" Click="btn_PrehledJizd_Click" FontSize="24" VerticalAlignment="Top"/>
+        <Button x:Name="btn_PridatJizdu" Content="Přidat jízdu" Margin="0,140,0,0" Width="291" Click="Button_Click" FontSize="24" VerticalAlignment="Top"/>
+        <Label Content="Kniha jízd" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" FontSize="48"/>
+        <Button x:Name="btn_OdebratJizdu" Content="Odebrat jízdu" Margin="0,181,0,0" Width="291" FontSize="24" VerticalAlignment="Top" Click="btn_OdebratJizdu_Click"/>
+
+    </Grid>
+</Window>
